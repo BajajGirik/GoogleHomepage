@@ -1,18 +1,41 @@
+body,
+input,
+button {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+}
+
 a {
   text-decoration: none;
-}
-
-#Header {
-  float: right;
-  padding: 0px 4px 0px 0px;
-}
-
-#Header a {
   color: rgba(0, 0, 0, 0.87);
   padding: 0px 15px 0px 0px;
   font-size: 13px;
   font-family: arial, sans-serif;
 }
+
+img {
+  width: 272px;
+  height: 92px;
+}
+
+#Header {
+  float: right;
+  padding: 0px 4px 0px 0px;
+  height: 48px;
+}
+
 #Content {
   clear: both;
+  text-align: center;
+}
+
+.Searchbar {
+  font-size: 16px;
+  margin-top: -37px;
+  height: 34px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
