@@ -28,6 +28,7 @@ img {
 #Content {
   clear: both;
   text-align: center;
+  height: 389px;
 }
 
 .Searchbar {
@@ -38,4 +39,20 @@ img {
 
 a:hover {
   text-decoration: underline;
+}
+
+#Footer {
+  background-color: rgba(218, 216, 216, 0.719);
+  height: 46px;
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#Leftfoot > a {
+  color: #70757a;
+  height: 46px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
 }
