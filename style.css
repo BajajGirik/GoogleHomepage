@@ -46,12 +46,14 @@ a:hover {
   height: 46px;
   padding: 0px 15px 0px 15px;
   display: flex;
+  align-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#Leftfoot > a {
+#Footer a {
   color: #70757a;
+  padding: 8px 15px;
   height: 46px;
   font-size: 14px;
   font-family: arial, sans-serif;
