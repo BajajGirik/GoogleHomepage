@@ -60,6 +60,7 @@ a:hover {
   padding: 15px;
   font-size: 14px;
   font-family: arial, sans-serif;
+  line-height: 45px;
 }
 
 #Footer button {
@@ -69,9 +70,10 @@ a:hover {
   font-family: arial, sans-serif;
   padding: 0px 15px;
   border: 0px;
+  line-height: 45px;
 }
 
-Footer button:hover {
+#Footer button:hover {
   text-decoration: underline;
   cursor: pointer;
 }
