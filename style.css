@@ -44,17 +44,24 @@ a:hover {
 #Footer {
   background-color: rgba(218, 216, 216, 0.719);
   height: 46px;
+  width: 96.5%;
   padding: 0px 15px 0px 15px;
   display: flex;
   align-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: absolute;
+  bottom: 0%;
 }
 
 #Footer a {
   color: #70757a;
   padding: 8px 15px;
-  height: 46px;
   font-size: 14px;
   font-family: arial, sans-serif;
+}
+
+#Footer button {
+  margin-right: 10px;
+  padding: 0px 15px;
 }
