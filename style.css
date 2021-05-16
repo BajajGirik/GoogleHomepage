@@ -39,6 +39,7 @@ a {
   width: 580px;
   margin: 0 auto;
   padding: 0px 0px 18px 0px;
+  position: relative;
 }
 
 #Searchit .Searchbar {
@@ -56,6 +57,17 @@ a {
 #Searchit .icons {
   width: 24px;
   height: 24px;
+  position: absolute;
+}
+
+.l {
+  top: 16%;
+  left: 1.5%;
+}
+
+.r {
+  top: 15.3%;
+  right: 1.5%;
 }
 
 a:hover {
