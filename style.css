@@ -25,6 +25,17 @@ a {
   height: 48px;
 }
 
+#SignIN {
+  color: #fff;
+  background: #1a73e8;
+  padding: 9px 23px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  text-decoration: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
 #Content {
   clear: both;
   text-align: center;
@@ -44,7 +55,6 @@ a {
 
 .Searchit .Searchbar {
   box-sizing: border-box;
-  box-shadow: black;
   width: 100%;
   padding: 5px 40px 6.5px 40px;
   line-height: 32px;
@@ -54,6 +64,10 @@ a {
   font-size: 16px;
 }
 
+.Searchit .Searchbar:hover {
+  box-shadow: 0.5px 0.5px 3px 1.5px #ccc;
+}
+
 .Searchit .icons {
   width: 24px;
   height: 24px;
@@ -61,7 +75,7 @@ a {
 }
 
 .l {
-  top: 16%;
+  top: 16.7%;
   left: 1.5%;
 }
 
