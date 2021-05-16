@@ -35,18 +35,18 @@ a {
   padding: 20px;
 }
 
-#Searchit {
+.Searchit {
   width: 580px;
   margin: 0 auto;
   padding: 0px 0px 18px 0px;
   position: relative;
 }
 
-#Searchit .Searchbar {
+.Searchit .Searchbar {
   box-sizing: border-box;
   box-shadow: black;
   width: 100%;
-  padding: 5px 30px;
+  padding: 5px 40px 6.5px 40px;
   line-height: 32px;
   border: solid 1px #ccc;
   border-radius: 30px;
@@ -54,7 +54,7 @@ a {
   font-size: 16px;
 }
 
-#Searchit .icons {
+.Searchit .icons {
   width: 24px;
   height: 24px;
   position: absolute;
@@ -68,6 +68,23 @@ a {
 .r {
   top: 15.3%;
   right: 1.5%;
+}
+
+.buttons {
+  box-sizing: content-box;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  margin: 11px 4px 11px 4px;
+  padding: 0px 16px;
+  height: 34px;
+  outline: none;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  border: 1px solid #ccc;
 }
 
 a:hover {
