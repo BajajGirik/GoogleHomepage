@@ -31,11 +31,26 @@ img {
   height: 389px;
 }
 
-.Searchbar {
+#Forms {
+  padding: 20px;
+}
+
+#Searchit {
+  width: 580px;
+  margin: 0 auto;
+  padding: 0px 0px 18px 0px;
+}
+
+#Searchit .Searchbar {
+  box-sizing: border-box;
+  box-shadow: black;
+  width: 100%;
+  padding: 5px 30px;
+  line-height: 32px;
+  border: solid 1px #ccc;
+  border-radius: 30px;
+  outline: none;
   font-size: 16px;
-  margin-top: -37px;
-  height: 34px;
-  border-radius: 7px;
 }
 
 a:hover {
