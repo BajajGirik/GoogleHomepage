@@ -39,7 +39,11 @@ a {
 #Content {
   clear: both;
   text-align: center;
-  height: 389px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 390px;
 }
 
 #Forms {
