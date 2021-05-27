@@ -1,6 +1,7 @@
 body,
 input,
 button {
+  margin: 0px;
   font-size: 14px;
   font-family: arial, sans-serif;
   color: #222;
@@ -127,7 +128,9 @@ a:hover {
   padding: 0px 3px;
 }
 
-#Footer {
+#Footer2,
+#Footer1 {
+  margin: 0px;
   background-color: rgba(218, 216, 216, 0.719);
   height: 45px;
   width: 100%;
@@ -135,6 +138,14 @@ a:hover {
   align-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+#Footer1 {
+  box-sizing: border-box;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
 }
 
 #Footer a {
