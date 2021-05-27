@@ -8,6 +8,7 @@ button {
 
 body {
   height: 100vh;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +27,10 @@ a {
 }
 
 #Header {
-  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 48px;
   padding: 4px 4px 0px 0px;
   height: 48px;
 }
@@ -43,13 +47,12 @@ a {
 }
 
 #Content {
-  clear: both;
+  flex-grow: 1;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  height: 390px;
+  justify-content: center;
 }
 
 #Forms {
