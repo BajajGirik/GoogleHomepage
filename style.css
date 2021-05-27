@@ -118,6 +118,15 @@ a:hover {
   text-decoration: underline;
 }
 
+#Lang {
+  margin-top: 15px;
+}
+
+#Lang > a {
+  color: #1a0dab;
+  padding: 0px 3px;
+}
+
 #Footer {
   background-color: rgba(218, 216, 216, 0.719);
   height: 45px;
